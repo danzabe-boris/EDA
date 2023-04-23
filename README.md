@@ -2,7 +2,7 @@
 # Readme
 This repository contains a Python code for performing Principal Component Analysis (PCA) on a dataset, visualizing the data separation after the transformation, and calculating the accuracy of the classification using the nearest centroid method.
 
-##Libraries Used
+## Libraries Used
 numpy
 pandas
 matplotlib
@@ -13,7 +13,7 @@ scipy.spatial.distance
 Dataset
 The dataset used in this code is "TP1_data.csv". The file is read using pandas library and the index column is set to 0. The "classe" column is dropped as it is not needed for PCA.
 
-##Data Visualization
+## Data Visualization
 Two data visualization methods are used in this code:
 
 ### Pairplot: This method is used to visualize the pairwise relationships between the features in the dataset. This is implemented using seaborn library.
@@ -27,5 +27,5 @@ Two scatter plots are generated with 2 and 3 principal components respectively, 
 ## Nearest Centroid Method
 The nearest centroid method is used to classify each object to its nearest centroid by Euclidean distance. The accuracy of the classification is calculated and printed to the console.
 
-#Conclusion
+# Conclusion
 This code provides an example of how to use PCA to reduce the dimensionality of a dataset and visualize the data separation after transformation. It also shows how to use the nearest centroid method to classify the objects.
